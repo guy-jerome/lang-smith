@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Circle Packing Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Circle Packing Calculator</h1>
+
+    <label for="circleDiameter">Circle Diameter (x):</label>
+    <input type="number" id="circleDiameter" min="0" />
+
+    <label for="spaceWidth">Space Width:</label>
+    <input type="number" id="spaceWidth" min="0" />
+
+    <label for="spaceHeight">Space Height:</label>
+    <input type="number" id="spaceHeight" min="0" />
+
+    <button onclick="calculatePacking()">Calculate</button>
+
+    <div id="result"></div>
+    <div id="visualization"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
